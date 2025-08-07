@@ -1,0 +1,62 @@
+body {
+  letter-spacing: 0.7pt;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #555;
+  position: relative;
+  padding-top: 80px;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #FFAE39;
+  margin: 16px auto 0;
+  border-radius: 2px;
+}
+
+.mcfe-staff-recruitment {
+  padding: 2rem;
+  background-color: #fefefe;
+  color: #222;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.mcfe-staff-recruitment h2 {
+  color: #AF00D3;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.mcfe-staff-recruitment p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.mcfe-staff-recruitment ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.mcfe-staff-recruitment ul li {
+  margin-bottom: 0.5rem;
+}
+
+.gform-container {
+  margin-top: 1rem;
+  border: 2px solid #c5cae9;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #fff;
+}

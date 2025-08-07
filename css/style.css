@@ -1,0 +1,237 @@
+body {
+  letter-spacing: 0.7pt;
+}
+
+.about-short {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.about-short {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+.about-short.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #AF00D3;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.btn-about {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #FFAE39;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.btn-about:hover {
+  background-color: #AF00D3;
+  transform: scale(1.05);
+}
+
+
+
+.unit-section {
+  padding: 80px 20px;
+  background: #fefefe;
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #AF00D3;
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.unit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.unit-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.unit-card h3 {
+  font-size: 22px;
+  color: #FFAE39;
+  margin-bottom: 15px;
+}
+
+.unit-card p {
+  font-size: 15px;
+  color: #555;
+}
+
+.unit-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.artists-section {
+  background-color: #ffffff;
+  color: #555;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.artists-grid {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .artists-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.artists-logos {
+  display: flex;
+  flex-direction:row;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.artist-logo {
+  max-width: 180px;
+  height: auto;
+  border-radius: 200px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.artists-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #AF00D3;
+}
+
+@media (min-width: 768px) {
+  .artists-text h2 {
+    font-size: 2.5rem;
+  }
+}
+
+.artists-text p {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  margin-right: 7rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.artists-text a {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #FFAE39;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 9999px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.artists-text a:hover {
+  background-color: #AF00D3;
+}
+
+
+
+.audition-invite-section {
+  color: #555;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.audition-invite-section .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.audition-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+  color: #555;
+}
+
+.audition-quote {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.audition-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 2rem;
+  background-color: #FFAE39;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.audition-button:hover {
+  background-color: #AF00D3;
+
+}

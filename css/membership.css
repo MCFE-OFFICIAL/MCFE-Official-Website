@@ -1,0 +1,88 @@
+body {
+  letter-spacing: 0.7pt;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #555;
+  position: relative;
+  padding-top: 80px;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #FFAE39;
+  margin: 16px auto 0;
+  border-radius: 2px;
+}
+
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8fafc;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Tombol Back */
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #444;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  z-index: 999;
+}
+
+.back-button:hover {
+  background-color: #222;
+}
+
+/* Container Utama */
+.membership-container {
+  max-width: 800px;
+  margin: 100px auto 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.desc {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* Form Area */
+.form-wrapper {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}

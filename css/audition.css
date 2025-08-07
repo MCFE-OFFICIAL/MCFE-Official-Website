@@ -1,0 +1,107 @@
+body {
+  letter-spacing: 0.7pt;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #555;
+  position: relative;
+  padding-top: 80px;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #FFAE39;
+  margin: 16px auto 0;
+  border-radius: 2px;
+}
+
+/* audition.css */
+.audition-section {
+  padding: 50px 20px;
+  background: linear-gradient(to bottom right, #fffdf9, #f0f4ff);
+  color: #555;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.head-subtitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #AF00D3;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #555;
+  line-height: 2;
+}
+
+.audition-heading {
+  font-size: 1.4rem;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #AF00D3;
+  border-left: 5px solid #FFAE39;
+  padding-left: 10px;
+}
+
+ul, ol {
+  padding-left: 25px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  line-height: 1.75;
+}
+
+.coming-soon {
+  font-style: italic;
+  color: #888;
+}
+
+
+
+.faq strong {
+  color: #AF00D3;
+}
+
+.form-placeholder {
+  background-color: #eaf0ff;
+  border: 2px dashed #AF00D3;
+  padding: 30px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+.cta {
+  margin-top: 50px;
+  background-color: #AF00D3;
+  color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+    line-height: 2;
+}
+
+.cta:hover {
+  transform: scale(1.02);
+}
