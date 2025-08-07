@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCFE Official Website</title>
+
+    <!-- Untuk .ico -->
+    <link rel="icon" type="image/x-icon" href="./asset/root/favicon.ico">
+
+    <!-- Atau untuk .png -->
+    <link rel="icon" type="image/png" href="./asset/root/android-chrome-512x512.png">
+
+
+    <!-- Google Font: Fredoka -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/artist.css" />
+    <link rel="stylesheet" href="./component/css/style navbar.css" />
+    <link rel="stylesheet" href="./component/css/style header.css" />
+    <link rel="stylesheet" href="./component/css/style footer.css" />
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <!-- Logo -->
+            <div class="navbar-logo">
+                <img src="./img/logo/MCFE Logo-02.png" alt="MCFE Logo" />
+            </div>
+
+            <!-- Navigation Links -->
+            <nav class="navbar-links">
+                <a href="./index.html">Home</a>
+                <a href="./About.html">About</a>
+                <a href="./Artists.html">Artists</a>
+                <a href="./Audition.html">Audition</a>
+                <a href="./News.html">News</a>
+                <a href="./Recruitment.html">Job</a>
+                <a href="./Gallery.html">Gallery</a>
+            </nav>
+
+            <!-- Contact Button -->
+            <div class="navbar-contact" href="./Membership.html">
+                <a>Join</a>
+            </div>
+        </div>
+    </header>
+
+    <header class="hero">
+        <video autoplay muted loop playsinline class="bg-video">
+            <source src="asset/videos/Background.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="hero-content">
+            <h2>Welcome to</h2>
+            <h1>Modern Cultural Fusion Entertainment</h1>
+            <h3>Where Passion Meets Creativity & Family</h3>
+        </div>
+    </header>
+
+    <h1 class="section-title">MCFE Artists</h1>
+
+    <!-- Section Generation 1 -->
+    <section class="generation">
+        <h2 class="generation-title">Generasi 1</h2>
+        <div class="card-container">
+
+            <!-- Photocard: Rasyiid -->
+            <div class="photocard" onclick="toggleBio(this)">
+                <img src="./img/artist/Rasyiid Fadhilah Yusuf.jpg" alt="Rasyiid" />
+                <div class="info">
+                    <h3>Rasyiid</h3>
+                    <p>Soloist | 2022</p>
+                </div>
+                <div class="biodata">
+                    <p><strong>Nama Lengkap</strong><br>Rasyiid Fadhilah Yusuf</p>
+                    <p><strong>Asal</strong><br>Mojokerto</p>
+                    <p><strong>Kelahiran</strong><br>23 Desember 2004</p>
+                    <p><strong>Tinggi Badan</strong><br>160 CM</p>
+                    <p><strong>Tahun Debut</strong><br>2022</p>
+                    <p><strong>Unit</strong><br>Solo</p>
+                </div>
+            </div>
+
+            <!-- Photocard: Alin -->
+            <div class="photocard" onclick="toggleBio(this)">
+                <img src="./img/artist/Kalinda Ougest Dwi Sabillah.jpg" alt="Alin" />
+                <div class="info">
+                    <h3>Alin</h3>
+                    <p>Soloist | 2022</p>
+                </div>
+                <div class="biodata">
+                    <p><strong>Nama Lengkap</strong><br>Kalinda Ougest Dwi Sabillah</p>
+                    <p><strong>Asal</strong><br>Jombang</p>
+                    <p><strong>Kelahiran</strong><br>10 Agustus 2005</p>
+                    <p><strong>Tinggi Badan</strong><br>150 CM</p>
+                    <p><strong>Tahun Debut</strong><br>2022</p>
+                    <p><strong>Unit</strong><br>Solo</p>
+                </div>
+            </div>
+
+            <!-- Photocard: Nancy -->
+            <div class="photocard" onclick="toggleBio(this)">
+                <img src="./img/artist/Denensy Shinta Prameswari.jpg" alt="Nancy" />
+                <div class="info">
+                    <h3>Nancy</h3>
+                    <p>Soloist | 2022</p>
+                </div>
+                <div class="biodata">
+                    <p><strong>Nama Lengkap</strong><br>Denensy Shinta Prameswari</p>
+                    <p><strong>Asal</strong><br>Malang</p>
+                    <p><strong>Kelahiran</strong><br>4 April 2006</p>
+                    <p><strong>Tinggi Badan</strong><br>160 CM</p>
+                    <p><strong>Tahun Debut</strong><br>2022</p>
+                    <p><strong>Unit</strong><br>Solo</p>
+                </div>
+            </div>
+
+            <!-- Photocard: Rofi -->
+            <div class="photocard" onclick="toggleBio(this)">
+                <img src="./img/artist/Muhammad Rofi Renada.jpg" alt="Rofi" />
+                <div class="info">
+                    <h3>Rofi</h3>
+                    <p>Soloist | 2022</p>
+                </div>
+                <div class="biodata">
+                    <p><strong>Nama Lengkap</strong><br>Muhammad Rofi Renada</p>
+                    <p><strong>Asal</strong><br>Bojonegoro</p>
+                    <p><strong>Kelahiran</strong><br>24 Juli 2006</p>
+                    <p><strong>Tinggi Badan</strong><br>170 CM</p>
+                    <p><strong>Tahun Debut</strong><br>2022</p>
+                    <p><strong>Unit</strong><br>Solo</p>
+                </div>
+            </div>
+
+            <!-- Tambah artis lainnya seperti Alin, Rofi dengan struktur yang sama -->
+
+        </div>
+    </section>
+
+    <!-- Section Generation 2 -->
+    <section class="generation">
+        <h2 class="generation-title">Generasi 2</h2>
+        <div class="card-container">
+
+            <!-- Photocard Placeholder: OT9 Idol Group -->
+
+            <div class="photocard" onclick="toggleBio(this)">
+                <img src="./img/artist/Idol Group Soon-02.jpg" alt="Solo" />
+                <div class="info">
+                    <h3>Coming Soon</h3>
+                    <p>Solo</p>
+                </div>
+                <div class="biodata">
+                    <p><strong>Status</strong><br>Belum Diumumkan</p>
+                    <p><strong>Debut</strong><br>Segera</p>
+                    <p><strong>Unit</strong><br>Solo</p>
+                </div>
+            </div>
+
+            <div class="photocard coming-soon" onclick="toggleBio(this)">
+                <img src="./img/artist/Idol Group Soon-01.jpg" alt="OT9 Idol Group" />
+                <div class="info">
+                    <h3>Coming Soon</h3>
+                    <p>OT9 Idol Group</p>
+                </div>
+                <div class="biodata">
+                    <p><strong>Jumlah Member</strong><br>9</p>
+                    <p><strong>Status</strong><br>Belum Diumumkan</p>
+                    <p><strong>Debut</strong><br>Segera</p>
+                    <p><strong>Unit</strong><br>Idol Group</p>
+                </div>
+            </div>
+
+            <div class="photocard" onclick="toggleBio(this)">
+                <img src="./img/artist/Idol Group Soon-03.jpg" alt="Duo" />
+                <div class="info">
+                    <h3>Coming Soon</h3>
+                    <p>Duo</p>
+                </div>
+                <div class="biodata">
+                    <p><strong>Jumlah Member</strong><br>2</p>
+                    <p><strong>Status</strong><br>Belum Diumumkan</p>
+                    <p><strong>Debut</strong><br>Segera</p>
+                    <p><strong>Unit</strong><br>Duo</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <script src="./js/artist.js"></script>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- Kiri: Logo -->
+            <div class="footer-left">
+                <img src="./component/logo/MCFE Logo Footer-05.jpg" />
+            </div>
+
+            <!-- Tengah: Sosial Media -->
+            <div class="footer-center">
+                <p>Follow MCFE di media sosial:</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/mcf_entertainment_official" target="_blank">
+                        <img src="./asset/icons/Instagram.jpg" alt="Instagram" />
+                    </a>
+                    <a href="https://www.threads.com/@mcf_entertainment_official" target="_blank">
+                        <img src="./asset/icons/Threads.jpg" alt="Threads" />
+                    </a>
+                    <a href="https://www.youtube.com/@Modern_Cultural_Fusion" target="_blank">
+                        <img src="./asset/icons/Youtube.jpg" alt="YouTube" />
+                    </a>
+                    <a href="https://tiktok.com/@mcfe_official" target="_blank">
+                        <img src="./asset/icons/Tiktok.jpg" alt="TikTok" />
+                    </a>
+                    <a href="https://tiktok.com/@mcfe_official" target="_blank">
+                        <img src="./asset/icons/Twitter.jpg" alt="Twitter" />
+                    </a>
+                </div>
+            </div>
+
+            <!-- Kanan: Ajakan Audisi dan Kontak -->
+            <div class="footer-right">
+                <p>
+                    Ingin bergabung bersama kami?
+                </p>
+                <a href="/audition.html" class="footer-button">
+                    Ikut Audisi
+                </a>
+                <p>
+                    atau hubungi:
+                </p>
+                <p>
+                    Email:
+                    <a href="mailto:audition@mcfe.id">
+                        audition@mcfe.id
+                    </a>
+                </p>
+                <p>WA:
+                    <a href="https://wa.me/6281234567890">+62 812-3456-7890
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 MCFE (Modern Cultural Fusion Entertainment). All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="./component/js/navbar.js"></script>
+    <script src="./component/js/header.js"></script>
+    <script src="./component/js/footer.js"></script>
+</body>
+
+</html>
