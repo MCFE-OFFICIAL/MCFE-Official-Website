@@ -8,13 +8,13 @@ const newsData = [
   {
     title: "Comeback Setelah Hiatus, Nancy Siap Rilis Single Lagi",
     date: "28 Juli 2025",
-    image: "./img/events/IMG_20250605_150307.jpg",
+    image: "./img/events/Composing.jpg",
     summary: "Setelah masa hiatus lama, Nancy akan merilis lagu berjudul 'Better Life'. Lagu ini akan tersedia di semua platform streaming.",
   },
   {
     title: "Tampil Gebrakan Baru, Rasyiid Mulai Latihan Vokal & Rap",
     date: "15 Juli 2025",
-    image: "./img/events/DSCF5314.JPG",
+    image: "./img/events/Mixer.JPG",
     summary: "Founder MCFE, Rasyiid, mulai meranah ke dunia vokal dan rap setelah 3 tahun jadi produser musik. Motivasinya agar Rasyiid bisa punya single mandiri.",
   }
 ];
