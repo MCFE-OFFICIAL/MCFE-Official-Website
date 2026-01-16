@@ -22,12 +22,12 @@
 
 .hero-content {
   z-index: 1;
-  padding: 2rem;
+  padding: 0rem 2rem 4rem 2rem;
 }
 
 .hero h1 {
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   color: #ffae39;
   line-height: 50pt ;
 }
