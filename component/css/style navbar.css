@@ -25,6 +25,7 @@
 
 .navbar-logo {
   height: 89px;
+  margin-right: 3.9rem;
 }
 
 .navbar-links {
@@ -71,4 +72,5 @@
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
   }
+
 }
